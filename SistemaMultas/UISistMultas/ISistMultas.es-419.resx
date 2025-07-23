@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gBoxTiposMultas.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gBoxTiposMultas.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtCantAlcohol.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtCantAlcohol.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="txtCantAlcohol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 102</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtCantAlcohol.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="txtCantAlcohol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="checkBoxAlcohol.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="checkBoxAlcohol.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="checkBoxAlcohol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 102</value>
+  </data>
+  <data name="checkBoxAlcohol.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="checkBoxAlcohol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="checkBoxVelocidad.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="checkBoxVelocidad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="checkBoxVelocidad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 67</value>
+  </data>
+  <data name="checkBoxVelocidad.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="checkBoxVelocidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="checkBoxEstacionamiento.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="checkBoxEstacionamiento.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="checkBoxEstacionamiento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 33</value>
+  </data>
+  <data name="checkBoxEstacionamiento.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="checkBoxEstacionamiento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="gBoxTiposMultas.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="gBoxTiposMultas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 21</value>
+  </data>
+  <data name="gBoxTiposMultas.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="gBoxTiposMultas.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="gBoxTiposMultas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 164</value>
+  </data>
+  <data name="gBoxDatosConductor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="gBoxDatosConductor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="gBoxDatosConductor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 21</value>
+  </data>
+  <data name="gBoxDatosConductor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="gBoxDatosConductor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="gBoxDatosConductor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 164</value>
+  </data>
+  <data name="txtNombre.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="txtNombre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="txtNombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 71</value>
+  </data>
+  <data name="txtNombre.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="txtNombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 22</value>
+  </data>
+  <data name="txtNumLicencia.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="txtNumLicencia.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="txtNumLicencia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 33</value>
+  </data>
+  <data name="txtNumLicencia.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="txtNumLicencia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 22</value>
+  </data>
+  <data name="radBtnMasculino.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="radBtnMasculino.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="radBtnMasculino.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 134</value>
+  </data>
+  <data name="radBtnMasculino.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="radBtnMasculino.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 20</value>
+  </data>
+  <data name="radBtnFemenino.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="radBtnFemenino.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="radBtnFemenino.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 108</value>
+  </data>
+  <data name="radBtnFemenino.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="radBtnFemenino.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="labelSexo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labelSexo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="labelSexo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 108</value>
+  </data>
+  <data name="labelSexo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelSexo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 16</value>
+  </data>
+  <data name="labelNombre.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labelNombre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="labelNombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 71</value>
+  </data>
+  <data name="labelNombre.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelNombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 16</value>
+  </data>
+  <data name="labelNumLicencia.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labelNumLicencia.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt</value>
+  </data>
+  <data name="labelNumLicencia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 33</value>
+  </data>
+  <data name="labelNumLicencia.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelNumLicencia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 16</value>
+  </data>
+  <data name="btnNuevo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnNuevo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt, style=Bold</value>
+  </data>
+  <data name="btnNuevo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 28</value>
+  </data>
+  <data name="btnNuevo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btnNuevo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 35</value>
+  </data>
+  <data name="btnAceptar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnAceptar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt, style=Bold</value>
+  </data>
+  <data name="btnAceptar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 70</value>
+  </data>
+  <data name="btnAceptar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btnAceptar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 34</value>
+  </data>
+  <data name="btnFactura.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnFactura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt, style=Bold</value>
+  </data>
+  <data name="btnFactura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 110</value>
+  </data>
+  <data name="btnFactura.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btnFactura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 34</value>
+  </data>
+  <data name="btnSalir.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnSalir.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 9pt, style=Bold</value>
+  </data>
+  <data name="btnSalir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 151</value>
+  </data>
+  <data name="btnSalir.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btnSalir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 34</value>
+  </data>
+  <data name="grillaDatos.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="grillaDatos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 207</value>
+  </data>
+  <data name="grillaDatos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grillaDatos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>587, 100</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>790, 375</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat Medium, 8.999999pt, style=Bold, Italic</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        QgghhBDqof8HHsX9W8kg+ygAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+</root>
