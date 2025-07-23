@@ -45,11 +45,13 @@ Este proyecto fue una excelente oportunidad para aplicar fundamentos teóricos e
 
 *Aquí puedes ver la interfaz principal de la aplicación:*
 
-<img width="688" height="369" alt="1-Interfaz Principal Vacía" src="https://github.com/user-attachments/assets/dfdd904f-edd3-415e-ba9e-6f12073258a4" />
-<img width="688" height="369" alt="2-Interfaz Principal Con Datos" src="https://github.com/user-attachments/assets/a81f3f51-6029-46e6-b09d-ccb3884b4999" />
-<img width="688" height="369" alt="3 0-Interfaz Principal Llena" src="https://github.com/user-attachments/assets/d2fef251-8fd8-4e70-a797-a7fb88c1a1d5" />
-<img width="265" height="289" alt="3 1- Factura" src="https://github.com/user-attachments/assets/450738fc-13de-45ed-805e-9e82f860087e" />
-<img width="688" height="369" alt="4- Datos Desplegados" src="https://github.com/user-attachments/assets/1bfbc64e-b507-4263-9f0d-deb5989cb6a1" />
+<img width="688" height="369" alt="1-Interfaz Principal Vacía" src="https://github.com/user-attachments/assets/daf03aab-0d27-43a2-addc-aecc8db5a112" />
+<img width="688" height="369" alt="2-Interfaz Principal Con Datos" src="https://github.com/user-attachments/assets/8b68b61d-eb07-4d51-8044-12ff00054a64" />
+<img width="688" height="369" alt="3 0-Interfaz Principal Llena" src="https://github.com/user-attachments/assets/8951c523-a0d3-4e3e-afb7-4eef401be05c" />
+<img width="265" height="289" alt="3 1- Factura" src="https://github.com/user-attachments/assets/ed3cc002-050b-42d4-b617-86554fcf44ca" />
+<img width="688" height="369" alt="4- Datos Desplegados" src="https://github.com/user-attachments/assets/3e1a4b4c-c384-4b2f-97a9-ba3ea304fa2e" />
+
+
 
 
 ## 🚀 Cómo Empezar
